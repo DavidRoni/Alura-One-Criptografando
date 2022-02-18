@@ -1,0 +1,140 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: url('matrix-background.jfif');
+    background-size: cover;
+}
+main{
+  text-align: center;
+  margin-left: 0 auto;
+}
+h1{
+  font-family: 'Mochiy Pop P One', sans-serif;
+  color: rgba(27, 165, 0, 0.966);
+  font-size: 60px;
+}
+.textos{
+    margin-top: 50px;
+}
+.textos > h2{
+  color: rgba(255, 255, 255, 0.774);
+  padding-bottom: 20px;
+  text-shadow: 7px 25px 2.5px #4CAF50;
+  margin-bottom: 20px;
+
+}
+.areaTexto > h3{
+  color: rgba(255, 255, 255, 0.774);
+  padding-bottom: 8px;
+  text-shadow: 7px 25px 2.5px #4CAF50;
+  margin-top: 15px ;
+}
+.text1{
+  background-color: rgb(5, 124, 5);
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 25%;
+}
+.textos > button{
+  background-color: rgb(5, 124, 5);
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 25%;
+  border: 2px solid #4CAF50;
+  cursor: pointer;
+  margin-left: 2px;
+}
+.textos > button:hover {
+  background-color: #3e8e41
+}
+.textos > button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #4CAF50;
+  transform: translateY(4px);
+}
+.textos > .text{
+width: 200px;
+height: 20px;
+box-shadow: 2px 2px #4CAF50;
+text-align: center;
+}
+.areaDoTexto{
+  margin-top: 20px;
+  box-shadow: 8px 6px 8px #4CAF50
+}
+.botoesAdicionais > .copiar{
+  background-color: rgb(5, 124, 5);
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 25%;
+  border: 2px solid #4CAF50;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.botoesAdicionais > .copiar:hover {
+  background-color: #3e8e41
+}
+.botoesAdicionais > .copiar:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #4CAF50;
+  transform: translateY(4px);
+}
+.botoesAdicionais > .limpar{
+  background-color: rgb(5, 124, 5);
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 25%;
+  border: 2px solid #4CAF50;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.botoesAdicionais > .limpar:hover {
+  background-color: #3e8e41
+}
+.botoesAdicionais > .limpar:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #4CAF50;
+  transform: translateY(4px);
+}
+.botoesAdicionais > .colar{
+  background-color: rgb(5, 124, 5);
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 25%;
+  border: 2px solid #4CAF50;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.botoesAdicionais > .colar:hover {
+  background-color: #3e8e41
+}
+.botoesAdicionais > .colar:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #4CAF50;
+  transform: translateY(4px);
+}
+footer {
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+}
+.logoGitHub{
+  width: 100px;
+  height: 100px;
+}

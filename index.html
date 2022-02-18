@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Criptografando</title>
+</head>
+<body>
+  <main>
+  <h1>Criptografando 2.0</h1>
+  <div class="textos">
+      <h2>Digite o texto a ser Criptografado / Descriptografado</h2>
+      <button onclick="criptografar()">Criptografar</button>
+      <input class="text" value="" type="text" name="entrada" id="text1" placeholder="Insira um texto">
+      <button onclick="descriptografar()">Descriptografar</button>
+      <div class="botoesAdicionais">
+      <button id="copiar" class="copiar">Copiar</button>
+      <button id="limpar" class="limpar">Limpar</button>
+    </div>
+  </div>
+  <div class="areaTexto">
+    <h3>Resultado</h3>
+  <textarea class="areaDoTexto" id="areaTexto" cols="50" rows="10"></textarea>
+</div>
+</main>
+  <footer>
+    <p>Desenvolvido por Roni</p>
+    <a href="https://github.com/DavidRoni" target="_blank"><img class="logoGitHub" src="icone-github-verte.png" alt="Logo GitHub Na Cor Verde"></a>
+
+  </footer>
+</body>
+<script src="main.js"></script>
+</html>
